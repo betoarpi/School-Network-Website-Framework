@@ -1,0 +1,728 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"light",
+				"lightBlue"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"banner",
+				"banner-text"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"l",
+				"light"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"sd",
+				"semiBold"
+			],
+			[
+				"center",
+				"center-td"
+			],
+			[
+				"conten",
+				"content-img"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"wra",
+				"wrapper-table"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bu",
+				"button-orange"
+			],
+			[
+				"content",
+				"content-area"
+			],
+			[
+				"Os",
+				"OSBoldItalic"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"os",
+				"OpenSansExtraboldItalic"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"OSExtra",
+				"OpenSansExtraboldItalic"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ico",
+				"icon-youtube"
+			],
+			[
+				"icon",
+				"icon-twitter"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"wel",
+				"welcome-message-container"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"OS",
+				"OSBoldItalic"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"top",
+				"top-ad"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"OSBold",
+				"OSBoldItalic"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"gra",
+				"gray"
+			],
+			[
+				"rgb",
+				"rgba	rgba"
+			],
+			[
+				"rg",
+				"rgba	rgba"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"OSE",
+				"OSExtraItalic"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"width",
+				"max-width"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"img",
+				"images"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"padding"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme.styl",
+			"settings":
+			{
+				"buffer_size": 1064,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fonts/aller-font.css",
+			"settings":
+			{
+				"buffer_size": 2856,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/js/ux.js",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/index.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/customize.styl",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/da-slider.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/inner.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/header.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/functions.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/loop.php",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/index.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/cemcorp.sublime-workspace",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506 - Cemcorp Website/WebsiteDevelopment/cemcorp.sublime-project",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/mobile-email_new.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/style.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/html/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/sidebar.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/footer.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/it-soluciones",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/ink.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1311630 - Continuing Education Emails x2/html-email/mobile-email-testing.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-16-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-16-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-FR.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/WFN-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTSBS-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/PTMN-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/AP-Jan-15-EN.html",
+		"/Users/RobArpi/AdhocWorks/Web/January14/ADP Email/email.html",
+		"/Users/RobArpi/AdhocWorks/Web/BlackIronData/January14/Full_Website_Copy/login/index.php",
+		"/Users/RobArpi/Documents/Proyectos/Medrenlogic/Medrenlogic/LandingPage/medrenlogic-landing-page.sublime-project",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/ux.js",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/project-page.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/js/submenu.js",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/js/jquery-1.10.2.min.js",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/activation-1.0.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/avalon-framework-4.2.0.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/Axis-1.2.1-axis.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/Axis-1.2.1-commons-discovery-0.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/Axis-1.2.1-jaxrpc.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/Axis-1.2.1-wsdl4j-1.5.1.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/batik-all-1.7.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-beanutils-1.8.0.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-dbcp-1.4.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-digester-2.0.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-fileupload-1.2.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-io-2.4.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-lang3-3.1.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-logging-1.1.1.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-pool-1.5.5.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/commons-validator-1.4.0.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/fop.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/freemarker-2.3.19.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/gson-2.2.4.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/httpclient-4.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/httpcore-4.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/httpmime-4.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/javassist-3.11.0.GA.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/jaxb-api.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/jstl-1.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/jtds-1.2.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/log4j-1.2.16.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/mail-1.3.2.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/ognl-3.0.6.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentAdapterCK.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGatewayBPCAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGatewayFraudCheckAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGatewayGlobalCollectAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGatewayMigsAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGatewayPayPalAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGlobalCollectAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentGWAPI.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentMiscSvcAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentPWSAdapter.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentsDBEngine.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/PaymentsEngine.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/sabrestubs-payments.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/SabreWSClients.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/struts2-core-2.3.14.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/struts2-tiles-plugin-2.3.14.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/tiles-api-2.0.6.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/tiles-core-2.0.6.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/tiles-jsp-2.0.6.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/ViajezUtils.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/xmlgraphics-commons-1.5.jar",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Innomius/Sabre-PortalPagos/back-to-old-look/WEB-INF/lib/xwork-core-2.3.14.jar",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/css/theme.styl",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/index.html",
+		"/Users/RobArpi/Documents/Recursos/html5-todalavida.html",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/RobArpi/AdhocWorks/Web/November13/ThatCraftGuy/Responsive/css/bootstrap-theme.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/footer.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/css/layout.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/header.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/Site/index.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/css/text-shadows.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-content/themes/insidemexicotheme/css/shadows.css",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/Wordpress/wp-content/themes/insidemexicotheme/header.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/Wordpress/index.php",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/InsideMéxico/November2013/wp-config.php",
+		"/Users/RobArpi/Desktop/untitled",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/SchoolControl/HELP/Maquetado/help-assets/css/help.styl",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/RobArpi/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"BtnShadow",
+			"class=\"left w95\"",
+			"<div",
+			"div",
+			"&",
+			"span",
+			"cursor",
+			"<article class=\"left",
+			"<article class=\"left MT20 MB20\">",
+			"<article>",
+			"<h3>",
+			"&",
+			"div",
+			"li",
+			"hidden",
+			"h4",
+			"h3",
+			"&",
+			"{",
+			"display: block !important;",
+			"src=\"img/",
+			"src=\"img",
+			"src=\"../",
+			"library",
+			"display: block;",
+			"<br>",
+			"5%",
+			"margin: 5% 10%;",
+			"width: 300px !important;",
+			"width: 320px",
+			"class=\"first-level\"",
+			"<td",
+			"Title",
+			"td",
+			"banner",
+			"100%",
+			"240",
+			"banner-table",
+			"-title",
+			"header",
+			"<td width=\"20\"></td>",
+			"color: orange;",
+			"<table",
+			"class=\"row\"",
+			".container",
+			"padding:",
+			".secondary",
+			".primary",
+			"#2795b6",
+			"link",
+			"table",
+			"src=\"",
+			"January [X], 2014",
+			"January X",
+			"<br/>",
+			"http://ssd.blackirondata.com",
+			"https://myaccount.blackirondata.com",
+			"branches",
+			"Read complete bio",
+			"branches/",
+			"More information about this branch",
+			"The Lab",
+			"}",
+			";",
+			":",
+			"{",
+			"		\n",
+			".logo-area",
+			"ol",
+			"lilist",
+			".contact-us-form",
+			"input",
+			"();\n",
+			"15px",
+			"5",
+			"body",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3383,
+								3383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/theme.styl",
+					"settings":
+					{
+						"buffer_size": 1064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fonts/aller-font.css",
+					"settings":
+					{
+						"buffer_size": 2856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true
+}
