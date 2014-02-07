@@ -5,12 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="">
-	<title>Colegio Nuevo México</title>
+	<title>Colegio México Nuevo</title>
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
 	<!-- Hojas de Estilo -->
 	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
 
     <!-- Hacks -->
     <!-- HTML5 shim para compatibilidad con IE -->
@@ -28,8 +29,8 @@
 	<!-- Modernizr -->
     <script src="js/modernizr-2.6.2.min.js"></script>
 </head>
-<body>
-	<!--[if lt IE 7]>
+<body id="top">
+	<!--[if lt IE 8]>
         <div class="alert alert-block alert-error Tcenter">
         	<p>Está utilizando un navegador obsoleto. <a href="http://browsehappy.com/" class="btn btn-danger">Descargue un nuevo navegador</a> o <a class="btn btn-success" href="http://www.goocom/chromeframe/?redirect=true">instale Google Chrome </a> para mejorar la experiencia de uso en nuestro sitio.</p>
         </div>
@@ -38,129 +39,216 @@
     <header id="header">
     	<div class="container">
     		<div class="row">
-    			<div class="col-xs-8">
-    				<button class="nav-button">
-    					<span class="glyphicon glyphicon-align-justify">Navigation</span>
-    				</button>
+    			<div class="col-xs-10">
+    				<a class="nav-button btn-link"><span class="glyphicon glyphicon-align-justify"></span></a>
     			</div>
-    			<div class="col-xs-4">
-    				<a href="#"><span class="glyphicon glyphicon-chevron-up"></span><span>CMN WEB</span></a>
+    			<div class="login Tcenter">
+    				<div class="login-wrapper">
+    					<a href="#"><span class="glyphicon glyphicon-chevron-up"></span><span class="login-text">CMN WEB</span></a>
+    				</div>
+
+    				<div class="login-form-container">
+    					<form action="">
+    						<input type="text" name="user" class="input-lg">
+	    					<input type="password" name="pass" class="input-lg">
+	    					<input type="submit" class="submit right" value="Enviar">
+	    					<a class="left w100 Tright" href="#" target="_blank">¿Olvidó su Contraseña?</a>
+    					</form>
+    				</div>
     			</div>
     		</div>
     	</div>
     </header><!-- ends header -->
 
+    <nav id="main-nav">
+    	<div class="social-icons">
+    		<a href="https://twitter.com/colegiomn" class="social-icon icon-twitter" target="_blank"></a>
+	    	<a href="https://www.facebook.com/pages/Comunidad-Colegios-M%C3%A9xico-Nuevo/110701838975584?fref=ts" class="social-icon icon-facebook" target="_blank"></a>
+	    	<a href="#" class="social-icon icon-youtube" target="_blank"></a>
+    	</div>
+    	<ul>
+    		<li><a href="#top"><span class="nav-icon inicio-icon"></span> <span class="nav-text">Inicio</span></a></li>
+			<li><a href="#ideario"><span class="nav-icon ideario-icon"></span> <span class="nav-text">Ideario</span></a></li>
+			<li><a href="#history"><span class="nav-icon history-icon"></span> <span class="nav-text">Historia</span></a></li>
+			<li><a href="#models"><span class="nav-icon models-icon"></span> <span class="nav-text">Modelo Educativo</span></a></li>
+			<li><a href="#levels"><span class="nav-icon levels-icon"></span> <span class="nav-text">Niveles</span></a></li>
+			<li><a href="#campus"><span class="nav-icon campus-icon"></span> <span class="nav-text">Campus</span></a></li>
+			<li><a href="#news-blog"><span class="nav-icon news-blog-icon"></span> <span class="nav-text">Blog</span></a></li>
+			<li><a href="#contact"><span class="nav-icon contact-icon"></span> <span class="nav-text">Contáctanos</span></a></li>
+    	</ul>
+    </nav><!-- main nav -->
+
     <div class="logo">
-    	<img src="colegio-nuevo-mexico-logo.png" alt="Colegio Nuevo México">
+    	<img src="img/colegio-mexico-nuevo-logo.png" alt="Colegio México Nuevo">
 	</div><!-- ends logo -->
 
 	<div id="video-banner">
-		<article class="banner-text">
-			<h1>Bienvenidos</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		</article>
-	</div><!-- ends video banner -->
-
-	<div id="rotating-quotes">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h3>El Sistema de Colegios México Nuevo adopta una filosofía humanista que considera a la persona como un ser en relación.</h3>
+		<video loop="loop" autoplay>
+			<!-- MP4 must be first for iPad! -->
+			<source src="video/testing.mp4" type="video/mp4" /><!-- Safari / iOS video    -->
+			<source src="video/testing.ogg" type="video/ogg" /><!-- Firefox / Opera / Chrome10 -->
+			<!-- fallback to Flash: -->
+			<object type="application/x-shockwave-flash" data="video/testing.swf">
+			<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+			<param name="movie" value="video/testing.swf" />
+			<param name="flashvars" value="controlbar=over&amp;image=video/testing.jpg&amp;file=video/testing.swf" />
+			<!-- fallback image. note the title field below, put the title of the video there -->
+			<img src="video/testing.jpg" alt="Video Testing" title="No video playback capabilities, please download the video below" />
+			</object>
+		</video>
+		<div class="banner-text">
+			<div class="container">
+				<div class="row">
+					<article class="col-xs-4">
+						<h1 class="title">Bienvenidos</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</article>
 				</div>
 			</div>
 		</div>
+		<a class="video-button various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><span class="glyphicon glyphicon-play"></span></a>
+	</div><!-- ends video banner -->
+
+	<div id="rotating-quotes">
+		<div class="container PR divider-top">
+			<div class="row">
+				<div class="col-xs-12">
+					<span class="ui-icon arrow-down-icon"></span>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 class="MB40">El <strong>Colegios México Nuevo</strong> nace hace 20 años con el propósito de fomentar hombres y mujeres que contribuyan al establecieminto de una sociedad nueva y cada vez mejor </h3>
+				</div>
+			</div>
+		</div>
+		<div class="icon-divider">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<span class="ui-icon light-bulb-icon"></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
 	</div><!-- ends rotating quotes -->
 
 	<div id="ideario">
 		<div class="container">
 			<div class="row">
-				<section class="col-sm-9">
-					<h2>ideario</h2>
-					<h3>La formación humana es muy importante para nosotros</h3>
+				<section class="col-sm-8">
+					<h2 class="title">Ideario</h2>
+					<h3 class="subtitle">La formación humana es muy importante para nosotros</h3>
 
 					<p>La adquisición de conocimientos y el desarrollo de las habilidades y destrezas intelectuales en nuestros centros educativos, se alimentan a favor de una formación intelectual elevada, necesaria para el desarrollo integral de la persona y exigida por la responsabilidad social en nuestros alumnos y alumnas y por la evolución de la misma sociedad.</p>
 
 					<p>Es por eso que NUESTRA MISIÓN: es formar dentro de un ambiente feliz y seguro; hombres y mujeres en todas sus dimensiones como ser humano, capaces de generar implementar el cambio hacia una sociedad nueva y fundamentada en el respeto, la justicia y el amor.</p>
 				</section>
-				<div class="col-sm-3">imagen mano corazón</div>
+				<div class="col-sm-3 col-sm-offset-1">
+					<img src="img/hand-holding-heart.png" alt="Formación humana">
+					<div class="icon-heart">
+						<span class="glyphicon glyphicon-heart"></span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div><!-- ends ideario -->
 
+	<div class="icon-divider container PR bg-shadow MT-3 left w100">
+		<div class="row">
+			<div class="col-xs-12">
+				<span class="ui-icon clock-ui-icon"></span>
+			</div>
+		</div>
+	</div><!-- ends icon divider -->
+
 	<div id="history">
 		<div class="container">
-			<div class="row relevant-day">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-1">
+			<div class="row MB20">
+				<h2 class="title">Historia</h2>
+			</div>
+			<div class="row relevant-day MB90">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-1 PT15 PB15">
 					<span class="history-date">1993</span>
 					<span class="history-date">1994</span>
 				</div>
 				<div class="col-sm-5">
 					<article>
-						<p>Comenzó el Colegio México Nuevo, Campus Guadalajara, La Calma de Preescolar a Bachillerato.</p>
+						<p>Comenzó el Colegio México Nuevo, <strong>Campus Guadalajara, La Calma</strong> de Preescolar a Bachillerato.</p>
 					</article>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 data-info PT5 PB5">
 					<span>inició con</span>
-					<span>303</span>
-					<span>alumnos</span>
+					<span class="bigger-data-info">303</span>
+					<span class="ML5">alumnos</span>
 				</div>
 			</div>
-			<div class="row relevant-day">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-1">
-					<span>2003</span>
+			<div class="row relevant-day MB45">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-1 PT15 PB15">
+					<span class="history-date">2003</span>
 				</div>
 				<div class="col-sm-5">
 					<article>
-						<p>Se fundó el Sistema Educativo de los Colegios México Nuevo</p>
+						<p>Se fundó el <strong>Sistema Educativo</strong> de los Colegios México Nuevo</p>
 					</article>
 				</div>
 				<div class="col-sm-3"></div>
 			</div>
-			<div class="row relevant-day">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-1">
-					<span>2005</span>
-					<span>2006</span>
+			<div class="row relevant-day MB40">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-1 PT15 PB15">
+					<span class="history-date">2005</span>
+					<span class="history-date">2006</span>
 				</div>
-				<div class="col-sm-5">
+				<div class="col-sm-5 PT10 PB10">
 					<article>
-						<p>Comenzó el Colegio México Nuevo, Campus Querétaro de Preescolar a Bachillerato.</p>
+						<p>Comenzó el Colegio México Nuevo, <strong>Campus Querétaro</strong> de Preescolar a Bachillerato.</p>
 					</article>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 data-info PT5 PB5">
 					<span>inició con</span>
-					<span>738</span>
-					<span>alumnos</span>
+					<span class="bigger-data-info">738</span>
+					<span class="ML5">alumnos</span>
 				</div>
 			</div>
 			<div class="row relevant-day">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-1"></div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-1 PT40 PB40">&nbsp;</div>
 				<div class="col-sm-5">
 					<article>
-						<p>Comenzó el Colegio México Nuevo, Campus Guadalajara, Santa Anita de Preescolar a Bachillerato.</p>
+						<p>Comenzó el Colegio México Nuevo, <strong>Campus Guadalajara, Santa Anita</strong> de Preescolar a Bachillerato.</p>
 					</article>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-3 data-info PT9 PB9">
 					<span>inició con</span>
-					<span>515</span>
-					<span>alumnos</span>
+					<span class="bigger-data-info">515</span>
+					<span class="ML5">alumnos</span>
 				</div>
 			</div>
 		</div>
+		<div class="icon-divider bg-shadow">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<span class="ui-icon guidance-icon"></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
 	</div><!-- ends history -->
 
 	<div id="guidance">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-7 col-xs-offset-1">
-					<article>
-						<p>El docente es el guía que acompaña el desarrollo de la vida profesional de nuestros alumnos.</p>
+					<article class="MR80">
+						<p>El docente es el guía que acompaña el desarrollo de la vida profesional de nuestros alumnos porporcionándole siempre apoyo físico emcoional e intelectual.</p>
 					</article>
 				</div>
-				<div class="col-xs-4">imagen del docente aquí</div>
 			</div>
 		</div>
 	</div><!-- ends guidance -->
@@ -168,178 +256,422 @@
 	<div id="models">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 models-slider">
-					<ul>
-						<li>
-							<article>
-								<h2>Modelo basado en competencias</h2>
-								<h4>En el Colegio México Nuevo fomentamos en nuestros alumnos el desarrollo de las habilidades que les permitirán obtener una formación integral. 
-</h4>
-								<p>Sabemos que cada uno de ellos es un ser único, tiene formas propias de aprender y expresarse, piensa y siente de forma particular, gusta de conocer y descubrir el mundo que le rodea.</p>
-							</article>
+				<div class="col-xs-11 col-xs-offset-1 models-slider">
+					<div class="slider-control"></div>
+					<ul class="MT60">
+						<li class="container-2">
+							<section class="row">
+								<h2 class="title">Modelo educativo</h2>
+
+								<p class="MT20">El Sistema Educativo Colegios México Nuevo ha establecido una serie de programas adicionales a los oficiales, que son los siguientes:</p>
+
+								<figure class="col-sm-4 PT20">
+									<img src="img/modelo-educativo-1.png" alt=" ">
+								</figure>
+
+								<article class="col-sm-7 PL100 MT30">
+									<h3 class="subtitle MB30">· Formación en valores · Joven <br>emprendedor · Inglés · Computación</h3>
+
+									<p>Con estos programas se busca asegurar que los egresados de bachillerato cuenten con el mayor número de herramientas  que les permitan relacionarse con los demás y con su entorno, de manera que logren desarrollar y establecer propuestas de mejora en su contexto social, se distinga por su espíritu emprendedor, sus acciones hacia la sustentabilidad y sean aceptados en la universidad de su elección y carrera de su preferencia.</p>
+								</article>
+							</section>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<section class="row">
+								<h2 class="title col-sm-10 valores">Formación de Valores</h2>
+
+								<article class="col-sm-10 valores">
+									<p class="MT20">En nuestros Colegios el respeto, la justicia y el amor se han reconocido como los valores fundamentales para coexistir en armonía y trascender en las relaciones con nuestra comunidad educativa.</p>
+									
+									<figure class="left w100 Tcenter MT20 MB20">
+										<img src="img/formacion-de-valores.png" alt="Formación de Valores">
+									</figure>
+
+									<blockquote class="quote-valores left w100 Tcenter MT20">“Hoy seré mejor con el <strong>respeto, la justicia y el amor</strong>”</blockquote>
+								</article>
+							</section>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<section class="row">
+								<h2 class="title">Modelo basado en competencias</h2>
+
+								<figure class="col-sm-4 PT20">
+									<img src="img/modelo-competencias-img.png" alt=" ">
+								</figure>
+
+								<article class="col-sm-6 PL100 MT30 competencias">
+									<p>La educación del siglo XXI debe permitir que los alumnos se preparen para el reto de un mundo globalizado. Por ello nos basamos en un enfoque internacional de competencias que para nosotros en educación significa:</p>
+
+									<cite>
+										Actuaciones integrales para <strong>identificar, interpretar, argumentar y resolver problemas</strong> del contexto con idoneidad y compromiso ético, que necesitan de una dinamización selectiva de los diferentes saberes: <strong>ser convivir, hacer y conocer.</strong>”
+										<span class="left w100 MT10">- Tabón y Mucharraz 2010</span>
+									</cite>
+								</article>
+							</section>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<section class="row">
+								<h2 class="title col-sm-10 valores">Ejes Transversales</h2>
+
+								<article class="col-sm-10 valores">
+									<p class="MT20">Para CMN los ejes transversales son aprendizajes que se trabajan a lo largo de programas académicos, a fin de que se conviertan en caracteríticas esenciales de los estudiantes que egresan de nuestra Institución.</p>
+									
+									<figure class="left w100 Tcenter MT20 MB20">
+										<img src="img/ejes-transversales.png" alt="Formación de Valores">
+									</figure>
+								</article>
+							</section>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<section class="row acude-section">
+								<h2 class="title">ACUDE</h2>
+
+								<h4 class="subtitle">Formamos niños, niñas y jóvenes con habilidades para integrarse, honestos, tolerantes y respetuosos de las diferencias, con actitud positiva, creativos, con habilidad mental para la estrategia y la táctica </h4>
+
+								<figure class="col-sm-4 PT20">
+									<img src="img/acude-img.png" alt=" ">
+								</figure>
+
+								<article class="col-sm-6 PL100 MT30 competencias ML30">
+									<p>Ofrecemos Actividades Culturales y Deportivas diseñadas para que los alumnos descubran sus talentos, desarrollen sus competencias y encaucen el uso de su tiempo libre.</p>
+								</article>
+
+								<article class="col-sm-6 PL100 MT30 competencias ML30">
+									<p>Los programas, buscan que los miembros de la comunidad se identifiquen con la Institución Educativa, se fomenten selecciones en las diferentes disciplinas para que representen a los colegios en competencias estatales e intercolegiales; así vivir el deporte y la cultura con alegía, estíritu de triunfo y compitiendo sanamente.</p>
+								</article>
+							</section>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<section class="row acude-section">
+								<h2 class="title">Capacitación docente y directiva</h2>
+
+								<figure class="col-sm-4 PT20">
+									<img src="img/capacitacion.png" alt=" ">
+								</figure>
+
+								<article class="col-sm-6 PL100 MT60 competencias ML30">
+									<p>Contamos con docentes especializados para cada curricula y personal altamente calificado, que semanalmente reciben couching con el fin de mejorar sus estrategias y que todo el tiempo se mantengan en constante y permanente actualización.</p>
+								</article>
+
+								<article class="col-sm-6 PL100 MT30 competencias ML30">
+									<p>Nuestros docentes se preocupan por brindar atención y seguimiento personal a cada uno de sus alumnos y padres de familia con la intensión de acompañandolos a lo largo de todo su desarrollo para que sean mejores cada día y hagan el cambio en el mundo.</p>
+								</article>
+							</section>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+		<div class="icon-divider container PR bg-shadow MT-3 left w100">
+			<div class="row">
+				<div class="col-xs-12">
+					<span class="ui-icon graph-icon"></span>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
 	</div><!-- ends models -->
 
 	<div id="levels">
 		<div class="container">
-			<div class="row ">
-				<div class="col-xs-12">
+			<div class="row MB30">
+				<div class="col-xs-12 levels-content">
 					<article>
-						<h2>Niveles</h2>
-						<h4>En el Colegio México Nuevo fomentamos en nuestros alumnos el desarrollo de las habilidades que les permitirán obtener una formación integral. 
-</h4>
+						<h2 class="title">Niveles</h2>
+						<h4 class="subtitle">En los Colegios México Nuevo fomentamos en nuestros alumnos el desarrollo de las habilidades que les permitirán lograr altos niveles educativos y una formación integral como seres humanos dentro de un ambiente feliz y seguro</h4>
+
 						<p>Sabemos que cada uno de ellos es un ser único, tiene formas propias de aprender y expresarse, piensa y siente de forma particular, gusta de conocer y descubrir el mundo que le rodea.</p>
 					</article>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 niveles-slider">
+				<div class="col-xs-6 levels-slider">
+					<div class="slider-control-2"></div>
 					<ul>
-						<li>
-							<article>
-								<h3>Peescolar</h3>
-								<span>(3 años de edad)</span>
-								<p>El niño Preescolar es un ser en desarrollo que presenta características físicas, psicológicas y sociales muy especiales.</p>
-								<p>Nuestro Sistema Educativo le ofrece al pequeño los elementos que necesita para comenzar a ultizar el lenguaje para expesar sus emociones, sentimientos y pensamientos de modo oral, escrito y artístico.</p>
-							</article>
-						</li>
+						<li class="container-2">
+							<div class="left w100 slide">
+								<article class="col-xs-5 levels-slider-content">
+									<h3 class="title">Peescolar-Maternal</h3>
+									<h4 class="subtitle">(2.5 años de edad)</h4>
+									<p>Esta encaminado al desarrollo integral del<br>
+										niño respetando su edad, intereses y ritmo<br>
+										de crecimiento, a la vez que se cultivan sus<br>
+										capacidades emocionales, intelectuales y físicas.</p>
+
+									<p>Nuestro Modelo Educativo ofrece al niño un aprendizaje <br>
+										activo, basado en interacción directa con: objetos, eventos <br>
+										e ideas; que promueven la creatividad y con ello la<br>
+										oportunidad para solucionar problemas.</p>
+								</article>
+								<figure class="col-xs-6 col-xs-offset-1 maternal">
+									<img src="img/preescolar-maternal.png" alt="Preescolar-Maternal">
+								</figure>
+							</div>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<div class="left w100 slide">
+								<article class="col-xs-5 levels-slider-content">
+									<h3 class="title">Peescolar-Kinder</h3>
+									<h4 class="subtitle">(3 años de edad)</h4>
+									<p>El aprendizaje está centrado en la construcción<br>
+										y el desarrollo de la identidad, de la autoestima<br>
+										y la autoconfianza.</p>
+
+									<p>Desde el primer año el preescolar es bilingüe. Nuestros alumnos podrán reconocer que existe otro idioma a través del cual se pueden comunicar y que tiene semejanzas y diferencias con su idioma materno, se le introduce al mundo de la tecnología a través de un software y se estimula la capacidad viso-motora y psicomotora.</p>
+								</article>
+								<figure class="col-xs-6 col-xs-offset-1 kinder">
+									<img src="img/preescolar-kinder.png" alt="Preescolar-Kinder">
+								</figure>
+							</div>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<div class="left w100 slide">
+								<article class="col-xs-5 levels-slider-content">
+									<h3 class="title">Primaria</h3>
+									<h4 class="subtitle">(6 años de edad)</h4>
+									<p>La primaria es bilingüe y se desarrolla el proceso<br>
+										lecto-escrito en ambos idiomas, por lo que los alumnos<br>
+										podrán comunicarse de manera oral y escrita.</p> 
+
+									<p>Contamos con  una clase de tecnología en español y una<br>
+										en inglés, a la semana con el fin de que el estudiante<br>
+										utilice de manera autónoma y razonadas las tecnologías<br>
+										de la información y la comunicación disponibles en el<br>
+										colegio para leer, producir y ordenar documentos en<br>
+										las diferentes situaciones didácticas.</p>
+								</article>
+								<figure class="col-xs-6 col-xs-offset-1 primaria">
+									<img src="img/primaria.png" alt="Primaria">
+								</figure>
+							</div>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<div class="left w100 slide">
+								<article class="col-xs-5 levels-slider-content">
+									<h3 class="title">Secundaria</h3>
+									<h4 class="subtitle">(12 años de edad)</h4>
+									<p>El propósito esencial en este nivel es que los alumnos utilicen diferentes fuentes de información y aprendan a evaluarlas críticamente; organicen y compartan información al usar diversas herramientas; desarrollen habilidades clave como el pensamiento lógico, la resolución de problemas y análisis de datos; exploren y analicen fenómenos del mundo físico y social</p>
+
+									<p>El alumno deberá utilizar el idioma inglés con fines culturales, para aprender contenidos de diversas áreas</p> 
+								</article>
+								<figure class="col-xs-6 col-xs-offset-1 secundaria">
+									<img src="img/secundaria.png" alt="Secundaria">
+								</figure>
+							</div>
+						</li><!-- ends slide -->
+						<li class="container-2">
+							<div class="left w100 slide">
+								<article class="col-xs-5 levels-slider-content">
+									<h3 class="title">Bachillerato</h3>
+									<h4 class="subtitle">(15 años de edad)</h4>
+									<p>El propósito fundamental del nivel es que el alumno emplee las TIC´s (Tecnologías de la Indformación y Comunicación) para aprender a incrementar sus posibilidades de formación, al buscar, obtener, procesar y comunicar información para transformarla en conocimiento y usarla en el contexto cotidiano y escolar.</p>
+
+									<p>El alumno se comunicarán en inglés de manera oral y escrita utilizando las diversas estructuras gramaticales y un amplio vocabulario.</p>  
+								</article>
+								<figure class="col-xs-6 col-xs-offset-1 bachillerato">
+									<img src="img/bachillerato.png" alt="Bachillerato">
+								</figure>
+							</div>
+						</li><!-- ends slide -->
 					</ul>
-				</div>
-				<div class="col-xs-6">imagen niño</div>
+				</div><!-- ends levels slider -->
 			</div>
 		</div>
 	</div><!-- ends levels -->
 
+	<div class="icon-divider container PR bg-shadow MT-3 left w100">
+		<div class="row">
+			<div class="col-xs-12">
+				<span class="ui-icon map-icon"></span>
+			</div>
+		</div>
+	</div><!-- ends icon divider -->
+
 	<div id="campus">
 		<div class="container">
-			<div class="row ">
-				<div class="col-sm-6">
+			<div class="row map-bg PR">
+				<div class="col-sm-6 nuestro-campus">
 					<article>
-						<h2>Nuestros Campus</h2>
-						<h4>Contamos con cinco campus en la República Mexicana que le permitirán a nuestros alumnos desarrollar sus capacidades como ser humano dentro de un ambiente feliz y seguro </h4>
+						<h2 class="title">Nuestros Campus</h2>
+						<h4 class="subtitle">Contamos con cinco campus en la República Mexicana que brindan a nuestros alumnos una educación con inspiración católica, abierta a todos los credos con inglés como segunda lengua.</h4>
 					</article>
 				</div>
-				<div class="col-sm-6">mapa</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					<ul>
-						<li><img src="" alt=""><span>Colegio, La Calma</span></li>
-						<li><img src="" alt=""><span>Colegio, Santa Anita</span></li>
-						<li><img src="" alt=""><span>Colegio, Morelia</span></li>
-						<li><img src="" alt=""><span>Colegio, Querétaro</span></li>
-						<li><img src="" alt=""><span>Colegio, Puebla</span></li>
-					</ul>
+				<div class="la-calma-tooltip">
+					<a href="#" class="map-marker-icon campus-la-calma" data-toggle="tooltip" data-placement="right" title="La Calma">&nbsp;</a>
 				</div>
+				<div class="sta-anita-tooltip">
+					<a href="#" class="map-marker-icon campus-sta-anita" data-toggle="tooltip" data-placement="right" title="Santa Anita">&nbsp;</a>
+				</div>
+				<div class="queretaro-tooltip">
+					<a href="#" class="map-marker-icon campus-queretaro" data-toggle="tooltip" data-placement="right" title="Queretaro">&nbsp;</a>
+				</div>
+				<div class="puebla-tooltip">
+					<a href="#" class="map-marker-icon campus-puebla" data-toggle="tooltip" data-placement="right" title="Puebla">&nbsp;</a>
+				</div>
+				<div class="morelia-tooltip">
+					<a href="#" class="map-marker-icon campus-morelia" data-toggle="tooltip" data-placement="right" title="Morelia">&nbsp;</a>
+				</div>
+				<!-- <span class="map-marker-icon campus-sta-anita"></span>
+				<span class="map-marker-icon campus-queretaro"></span>
+				<span class="map-marker-icon campus-puebla"></span>
+				<span class="map-marker-icon campus-morelia"></span> -->
 			</div>
 		</div>
 	</div><!-- ends campus -->
 
-	<div id="news-blog">
+	<div id="campus-locations">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
-					<section class="news-blog">
-						<h2>Blog de Noticias</h2>
-						<div class="blog-grid">
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 1</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 2</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 3</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 4</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 5</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-							<div class="post">
-								<img src="" alt="" class="featured-thumb">
-								<article>
-									<h6>Título 6</h6>
-									<p>Lorem ipsum dolor sit amet!</p>
-								</article>
-							</div>
-						</div><!-- ends blog grid -->
-					</section>
+				<div class="col-xs-12 campus-list">
+					<ul>
+						<li><a href="#"><span class="ui-icon la-calma-icon"></span><span class="colegio">Colegio, La Calma</span></a></li>
+						<li><a href="#"><span class="ui-icon sta-anita-icon"></span><span class="colegio">Colegio, Santa Anita</span></a></li>
+						<li><a href="#"><span class="ui-icon morelia-icon"></span><span class="colegio">Colegio, Morelia</span></a></li>
+						<li><a href="#"><span class="ui-icon queretaro-icon"></span><span class="colegio">Colegio, Querétaro</span></a></li>
+						<li><a href="#"><span class="ui-icon puebla-icon"></span><span class="colegio">Colegio, Puebla</span></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+	</div><!-- ends campus locations -->
+
+	<div id="news-blog">
+		<div class="container">
+			<div class="row">
+				<section class="col-sm-12 news-blog">
+					<h2 class="title MB70">Blog de Noticias</h2>
+					<div class="blog-grid">
+						<div class="post post-1">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-1.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 1</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+						<div class="post post-2">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-2.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 2</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+						<div class="post post-3">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-3.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 3</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+						<div class="post post-4">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-4.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 4</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+						<div class="post post-5">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-5.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 5</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+						<div class="post post-6">
+							<a href="#" class="slide-trigger">
+								<img src="img/blog-thumbnail-6.jpg" alt="nachos con queso" class="featured-thumb">
+								<article>
+									<h6 class="title">Título 6</h6>
+									<p>Lorem ipsum dolor sit amet!</p>
+									<div class="date">15<br>DIC</div>
+								</article>
+							</a>
+						</div>
+					</div><!-- ends blog grid -->
+					<a href="#" class="blue-btn btn-link">ver todas</a>
+				</section>
+			</div>
+		</div>
+		<div class="icon-divider bg-shadow">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<span class="ui-icon news-icon"></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
 	</div><!-- ends news blog -->
 
 	<div id="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
-					<h2>Contáctanos</h2>
-					<button class="contactanos">Contáctanos</button>
-					<button class="cita">Solicita una cita</button>
+				<div class="col-xs-12 contact-container">
+					<h2 class="title MB60">Contáctanos</h2>
+					<div class="button-container left w100 Tcenter MB30">
+						<button class="contactanos MR10" data-toggle="tab" data-target="#formulario-contacto-container">Contáctanos</button>
+						<button class="cita" data-toggle="tab" data-target="#formulario-cita-container">Solicita una cita</button>
+					</div>
+					
 					<div class="form-slider">
-						<ul>
-							<li>
-								<form action="" id="formulario-contacto" class="container">
-									<div class="row">
+						<ul class="left w100 PA0 tab-content">
+							<li id="formulario-contacto-container" class="left w100 tab-pane active">
+								<form action="" id="formulario-contacto">
+									<div class="row MB20">
 										<div class="col-sm-6">
-											<input type="text" name="nombre" placeholder="Nombre">
-											<input type="email" name="correo" placeholder="Correo">
-											<select name="campus" id="campus">
+											<input class="input-lg w100 MB20" type="text" name="nombre" placeholder="Nombre" required>
+											<input class="input-lg w100 MB20" type="email" name="correo" placeholder="Correo" required>
+
+											<select class="input-lg campus-select-2 MB20" name="campus" id="campus-select" class="left" required>
 												<option value="Campus">Campus</option>
-												<option value="">La Calma</option>
-												<option value="">Santa Anita</option>
-												<option value="">Morelia</option>
-												<option value="">Querétaro</option>
-												<option value="">Puebla</option>
+												<option value="La Calma">La Calma</option>
+												<option value="Santa Anita">Santa Anita</option>
+												<option value="Morelia">Morelia</option>
+												<option value="Qurétaro">Querétaro</option>
+												<option value="Puebla">Puebla</option>
 											</select>
-											<select name="asunto" id="asunto">
+
+											<select class="input-lg w100 asunto-select" name="asunto" id="asunto-select" required>
 												<option value="Asunto">Asunto</option>
 												<option value="Inscipción">Inscipción</option>
 												<option value="Aclaración">Aclaración</option>
 											</select>
 										</div>
 										<div class="col-sm-6">
-											<textarea name="mensaje" id="mensaje-contacto" cols="30" rows="10"></textarea>
-											<input type="submit" class="submit" value="Enviar">
+											<textarea class="w100 MB20 mensaje-contacto" name="mensaje" id="mensaje-contacto" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+											<input type="submit" class="submit right" value="Enviar">
 										</div>
 									</div>
 								</form><!-- ends formulario contacto -->
 							</li>
-							<li>
-								<form action="" class="container" id="formulario-cita">
-									<div class="row">
-										<div class="col-sm-6"><input type="text" name="nombre" placeholder="Nombre"></div>
-										<div class="col-sm-6"><input type="email" name="correo" placeholder="Correo"></div>
-									</email
-									<div class="row">
+							
+							<li id="formulario-cita-container" class="left w100 tab-pane">
+								<form action="" id="formulario-cita">
+									<div class="row MB20">
 										<div class="col-sm-6">
-											<select name="campus" id="campus">
+											<input class="input-lg w100" type="text" name="nombre" placeholder="Nombre" required>
+										</div>
+										<div class="col-sm-6">
+											<input class="input-lg w100" type="email" name="correo" placeholder="Correo" required>
+										</div>
+									</div>
+									<div class="row MB20">
+										<div class="col-sm-6">
+											<select class="input-lg campus-select" name="campus" id="campus-select" class="left" required>
 												<option value="Campus">Campus</option>
 												<option value="">La Calma</option>
 												<option value="">Santa Anita</option>
@@ -348,10 +680,10 @@
 												<option value="">Puebla</option>
 											</select>
 
-											<input type="date" name="fecha">
+											<input class="input-lg date-select" id="date-select" name="fecha" type="date">
 										</div>
 										<div class="col-sm-6">
-											<select name="asunto" id="asunto">
+											<select class="input-lg w100 asunto-select" name="asunto" id="asunto-select" required>
 												<option value="Asunto">Asunto</option>
 												<option value="Inscipción">Inscipción</option>
 												<option value="Aclaración">Aclaración</option>
@@ -359,38 +691,53 @@
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<textarea name="mensaje" id="mensaje-cita" cols="30" rows="10"></textarea>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-xs-12">
+										<div class="col-sm-12">
+											<textarea class="w100 MB20 mensaje-contacto" name="mensaje" id="mensaje-contacto" cols="30" rows="5" placeholder="Mensaje"></textarea>
 											<input type="submit" class="submit" value="Enviar">
 										</div>
 									</div>
-								</form><!-- ends formulario cita -->
+								</form> <!-- ends formulario cita -->
 							</li>
 						</ul>
 					</div><!-- ends form slider -->
 				</div>
 			</div>
 		</div>
+		<div class="icon-divider bg-shadow">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<span class="ui-icon mail-icon"></span>
+					</div>
+				</div>
+			</div>
+		</div><!-- ends icon divider -->
 	</div><!-- ends contact -->
 
 	<div id="social">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<span class="social-icon twitter"></span>
-					<p>Síguenos en <span>Twitter</span></p>
+					<span class="ui-icon twitter-icon left"></span>
+					<div class="left">
+						<p>Síguenos en <span class="FZ26">Twitter</span></p>
+						<a href="https://twitter.com/colegiomn" class="twitter-follow-button" data-show-count="true" data-lang="es">Síguenos @colegiomn</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+						</script>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<span class="social-icon facebook"></span>
-					<p>Síguenos en <span>Facebook</span></p>
+					<span class="ui-icon facebook-icon left"></span>
+					<div class="left">
+						<p>Síguenos en <span class="FZ26">Facebook</span></p>
+						<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FComunidad-Colegios-M%25C3%25A9xico-Nuevo%2F110701838975584%3Ffref%3Dts&amp;width=200&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+					</div>
 				</div>
 				<div class="col-sm-4">
-					<span class="social-icon Youtube"></span>
-					<p>Visita nuestro canal de <span>Youtube</span></p>
+					<span class="ui-icon youtube-icon left"></span>
+					<div class="left">
+						<p><a href="#" target="_blank">Visita nuestro canal de <br><span class="FZ26">Youtube</span></a></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -399,24 +746,133 @@
 	<div id="boletin">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-5"><span>Reciba nuestro boletín de noticias</span></div>
+				<div class="col-sm-5 MT8"><span>Reciba nuestro <strong>boletín de noticias</strong></span></div>
 				<div class="col-sm-7">
-					<form action="" id="boletin-noticias">
-						<div class="row">
-							<input class="col-sm-9" type="email" name="email-subscripcion" placeholder="E-mail">
-							<input class="submit-subscription col-sm-2 col-sm-offset-1" type="submit" value="Enviar">
-						</div>
+					<form action="" id="boletin-noticias" class="left w100">
+						<input class="email-subscription left input-lg" type="email" name="email-subscripcion" placeholder="E-mail" required>
+						<input class="submit-subscription left ML20" type="submit" value="Enviar">
 					</form>
 				</div>
 			</div>
 		</div>
 	</div><!-- ends boletin -->
 
-	
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 all-campus-info MB40">
+					<div class="campus-info la-calma">
+						<h5>Colegio La Calma</h5>
+						<div class="tel">
+							<span class="ui-icon phone-icon left"></span>
+							<span class="lada FZ20 left MT5 MR5">01(33)</span>
+							<span class="phone-numbers left">
+								3634-2599
+								<br>
+								3631-1259
+							</span>
+						</div>
+						<div class="address">
+							<span class="street-address">Montemorelos 3403</span><br>
+							<span class="region">La Calma</span><br>
+							<span class="postal-code">45070</span> <span class="city">Zapopan, Jalisco.</span>
+						</div>
+						<a class="email-info MT25 PT3" href="mailto:isandoval@cmn.edu.mx">isandoval@cmn.edu.mx</a>
+					</div><!-- ends campus info -->
+					<div class="campus-info sta-anita">
+						<h5>Colegio Santa Anita</h5>
+						<div class="tel">
+							<span class="ui-icon phone-icon left"></span>
+							<span class="lada FZ20 left MT5 MR5">01(33)</span>
+							<span class="phone-numbers left">
+								3687-0678
+								<br>
+								3612-6999
+							</span>
+						</div>
+						<div class="address">
+							<span class="street-address">Valle de Silicio 1001,</span>
+							<br>
+							<span class="region">Parque Industrial Bugambilias</span>
+							<br>
+							<span class="postal-code">45465</span> <span class="city">Tlajomulco de Zúñiga, Jalisco.</span>
+						</div>
+						<a class="email-info MT10" href="mailto:yazmin.seade@cmn.edu.mx">yazmin.seade@cmn.edu.mx</a>
+					</div><!-- ends campus info -->
+					<div class="campus-info queretaro">
+						<h5>Colegio Querétaro</h5>
+						<div class="tel">
+							<span class="ui-icon phone-icon left"></span>
+							<span class="lada FZ20 left MT5 MR5">01(442)</span>
+							<span class="phone-numbers left">
+								183-1521
+								<br>
+								183-1520
+							</span>
+						</div>
+						<div class="address">
+							<span class="street-address">Cerro Blanco 990,</span>
+							<br>
+							<span class="region">Centro Sur,</span>
+							<br>
+							<span class="postal-code">76090</span> <span class="city">Santiago de Querétaro, Querétaro.</span>
+						</div>
+						<a class="email-info MT10" href="mailto:mvega@cmn.edu.mx">mvega@cmn.edu.mx</a>
+					</div><!-- ends campus info -->
+					<div class="campus-info puebla">
+						<h5>Colegio Puebla</h5>
+						<div class="tel">
+							<span class="ui-icon phone-icon left"></span>
+							<span class="lada FZ20 left MT5 MR5">01(222)</span>
+							<span class="phone-numbers left MT10">
+								431-8186
+							</span>
+						</div>
+						<div class="address MT8">
+							<span class="street-address">Africa 2016,</span>
+							<br>
+							<span class="region">Lomas de Angelópolis,</span>
+							<br>
+							<span class="postal-code">72830</span> <span class="city">San Andrés Cholula, Puebla.</span>
+						</div>
+						<a class="email-info  MT25 PT3" href="mailto:promocion_cnmpuebla@cmn.edu.mx">promocion_cnmpuebla@cmn.edu.mx</a>
+					</div><!-- ends campus info -->
+					<div class="campus-info morelia">
+						<h5>Colegio Morelia</h5>
+						<div class="tel">
+							<span class="ui-icon phone-icon left"></span>
+							<span class="lada FZ20 left MT5 MR5">01(443)</span>
+							<span class="phone-numbers left">
+								204-0092
+								<br>
+								204-0809
+							</span>
+						</div>
+						<div class="address">
+							<span class="street-address">Camino Morelia a Jesús del Monte 3200-1</span>
+							<br>
+							<span class="region">Fracc. Altozano</span>
+							<br>
+							<span class="postal-code">58350</span> <span class="city">Morelia, Michoacán.</span>
+						</div>
+						<a class="email-info MT10" href="mailto:claudiaaguilar@cmn.edu.mx">claudiaaguilar@cmn.edu.mx</a>
+					</div>
+				</div><!-- ends campus info -->
+			</div><!-- ends all campus info -->
+			<div class="row copyright">
+				<div class="col-md-12">
+					<span>© Copyright 2014 - Colegio Mexico Nuevo All Rights Reserved</span>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<!-- Scripts -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle.all.js"></script>
+    <script src="source/jquery.fancybox.js?v=2.1.5"></script>
+    <script src="js/jquery.sticky.js"></script>
     <script src="js/ux.js"></script>
         
     <!-- Google Analytics -->

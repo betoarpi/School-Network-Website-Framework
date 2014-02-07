@@ -4,44 +4,196 @@
 		"selected_items":
 		[
 			[
-				"light",
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ligh",
+				"lightBlue"
+			],
+			[
+				"lig",
 				"lightBlue"
 			],
 			[
 				"tex",
-				"text-decoration"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"border",
-				"border-box"
-			],
-			[
-				"box",
-				"box-sizing"
-			],
-			[
-				"bo",
-				"bold"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"c",
-				"center"
+				"text-align"
 			],
 			[
 				"bor",
 				"border-radius"
 			],
 			[
+				"no",
+				"none"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"campus",
+				"campus-info"
+			],
+			[
+				"oran",
+				"orangeBtnBorder"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"txt",
+				"textGray2"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
 				"fon",
 				"font-size"
+			],
+			[
+				"all",
+				"AllerBold"
+			],
+			[
+				"ora",
+				"orangeBtnBorder"
+			],
+			[
+				"li",
+				"lightOrangeBtn"
+			],
+			[
+				"lightBlu",
+				"lightBlueBtn"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"repea",
+				"repeat-x"
+			],
+			[
+				"news",
+				"news-blog"
+			],
+			[
+				"arl",
+				"AllerBold"
+			],
+			[
+				"btn",
+				"orangeBtnBorder"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"login",
+				"login-active"
+			],
+			[
+				"show",
+				"show-login"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"border-b",
+				"border-box"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"video",
+				"video-banner"
+			],
+			[
+				"min",
+				"miniTitle"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"dar",
+				"darkerBlue"
+			],
+			[
+				"light",
+				"lightBlue"
 			],
 			[
 				"banner",
@@ -56,20 +208,8 @@
 				"vertical-align"
 			],
 			[
-				"a",
-				"auto"
-			],
-			[
 				"max",
 				"max-height"
-			],
-			[
-				"l",
-				"light"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"pa",
@@ -96,10 +236,6 @@
 				"background"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"wra",
 				"wrapper-table"
 			],
@@ -124,10 +260,6 @@
 				"OSBoldItalic"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
 				"os",
 				"OpenSansExtraboldItalic"
 			],
@@ -140,14 +272,6 @@
 				"OpenSansExtraboldItalic"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
 				"ico",
 				"icon-youtube"
 			],
@@ -156,16 +280,8 @@
 				"icon-twitter"
 			],
 			[
-				"no",
-				"none"
-			],
-			[
 				"wel",
 				"welcome-message-container"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"OS",
@@ -260,10 +376,6 @@
 				"images"
 			],
 			[
-				"b",
-				"background"
-			],
-			[
 				"so",
 				"solid"
 			],
@@ -288,10 +400,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "blog-post.html",
 			"settings":
 			{
-				"buffer_size": 3922,
+				"buffer_size": 14137,
 				"line_ending": "Unix"
 			}
 		},
@@ -299,15 +411,31 @@
 			"file": "css/theme.styl",
 			"settings":
 			{
-				"buffer_size": 1064,
+				"buffer_size": 31494,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "fonts/aller-font.css",
+			"file": "js/ux.js",
 			"settings":
 			{
-				"buffer_size": 2856,
+				"buffer_size": 3190,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "interna.html",
+			"settings":
+			{
+				"buffer_size": 20099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 38098,
 				"line_ending": "Unix"
 			}
 		}
@@ -352,9 +480,14 @@
 	},
 	"file_history":
 	[
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/index.html",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/css/customize.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/cnm.sublime-project",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/css/gradients.css",
+		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/customize.styl",
+		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/fonts/aller-font.css",
 		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/ColegioNuevoMexico/development/js/ux.js",
 		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/index.html",
-		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/customize.styl",
 		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/css/da-slider.css",
 		"/Users/RobArpi/AdhocWorks/Web/January14/1310506-CemcorpWebsite/WebsiteDevelopment/inner.html",
 		"/Users/RobArpi/Documents/Proyectos/OrangeStudio/Proyectos/IT/wordpress/wp-content/themes/it-soluciones/header.php",
@@ -483,6 +616,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"none",
+			";",
+			":",
+			"8b8b8c",
+			"f0f0f0",
+			".news-blog",
+			"#campus",
+			"sm",
+			"instalaciones",
+			"h3",
+			"levels-campus",
+			"jpg",
+			"border-bottom 3px",
+			"lightBlue",
+			"green",
+			"puebla",
+			"morelia",
+			"purple",
+			"sta-anita",
+			"la-calma",
+			"194px",
+			"glyphicon glyphicon-map-marker",
+			";",
+			":",
+			"div",
+			"article",
 			"BtnShadow",
 			"class=\"left w95\"",
 			"<div",
@@ -582,26 +741,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "blog-post.html",
 					"settings":
 					{
-						"buffer_size": 3922,
+						"buffer_size": 14137,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3383,
-								3383
+								5596,
+								5596
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1152.0,
+						"translation.y": 1762.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -611,51 +771,106 @@
 					"file": "css/theme.styl",
 					"settings":
 					{
-						"buffer_size": 1064,
+						"buffer_size": 31494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								693,
-								693
+								23682,
+								23682
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 107.0,
+						"translation.y": 25420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "fonts/aller-font.css",
+					"file": "js/ux.js",
 					"settings":
 					{
-						"buffer_size": 2856,
+						"buffer_size": 3190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								125,
-								114
+								3115,
+								3115
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "interna.html",
+					"settings":
+					{
+						"buffer_size": 20099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4710,
+								4743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3481.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 38098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26771,
+								26822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 12565.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

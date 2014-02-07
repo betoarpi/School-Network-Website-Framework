@@ -2,6 +2,8 @@
 @import 'bootstrap.min.css'
 @import 'bootstrap-theme-min.css'
 @import '../fonts/aller-font.css'
+@import '../fonts/social-icons.css'
+@import 'gradients.css'
 @import 'customize.styl'
 @import 'nib/vendor'
 
@@ -20,6 +22,7 @@ lightGray = #e5e5e5
 orange = #f6921e
 purple = #814bc8
 green = #39b44a
+lightGreen = #97c431
 red = #ec1c24
 darkerRed = #c21c27
 
@@ -45,9 +48,21 @@ socialGrayShadow = #b9c6cc
 title = 'Trebuchet MS', Helvetica, sans-serif
 miniTitle = 'AllerBold', Trebuchet MS, sans-serif
 copyFont = 'AllerLightRegular', Trebuchet MS, sans-serif
+AllerRegular = 'AllerRegular', Trebuchet MS, sans-serif
 
 
 // Theme Styles
+html
+	font-size 16px
+
+body
+	font-family copyFont
+	font-size 62.5%
+	position relative
+
+strong
+	color lightBlue
+	font-weight bold
 
 .hidden-seo
 	left -9999px
@@ -55,3 +70,1661 @@ copyFont = 'AllerLightRegular', Trebuchet MS, sans-serif
 	position absolute
 	top -9999px
 	width 0px
+
+.title
+	font-family title
+.miniTitle
+	font-family miniTitle
+.subtitle
+	font-family copyFont
+h2.title
+	font-size 3.5em
+	font-weight bold
+
+.alert-error
+	position relative
+	z-index 2500
+
+#header,
+#video-banner,
+#inner-banner,
+.container,
+#ideario,
+#guidance,
+#models,
+#levels,
+#campus,
+#campus-locations,
+#instalaciones,
+#news-blog,
+#contact,
+#social,
+#boletin,
+#footer
+	min-width 1200px
+
+// UI icons
+.ui-icon
+	background url(../img/cmn-ui-grid_01.png) no-repeat
+	display block
+	height 85px
+	margin -45px auto 0 auto
+	overflow hidden
+	width 85px
+
+.arrow-down-icon
+	background-position -10px -8px
+
+.light-bulb-icon
+	background-position  -8px -109px
+
+.clock-ui-icon
+	background-position -10px -209px
+
+.guidance-icon
+	background-position -11px -308px
+
+.graph-icon
+	background-position -10px -408px
+
+.map-icon
+	background-position -109px -11px
+	position relative
+	z-index 100
+
+.news-icon
+	background-position -110px -111px
+
+.mail-icon
+	background-position -110px -210px
+
+.twitter-icon
+	background-position -206px -224px
+	height 57px
+	margin 0 20px 0 0
+	width 53px
+
+.facebook-icon
+	background-position -274px -224px
+	height 57px
+	margin 0 20px 0 0
+	width 53px
+
+.youtube-icon
+	background-position -342px -224px
+	height 57px
+	margin 0 20px 0 0
+	width 53px
+
+.phone-icon
+	background-position -217px -317px
+	float left
+	height 19px
+	margin 10px 8px 0 0 
+	width 15px
+
+.la-calma-icon, .sta-anita-icon
+	background-position -111px -310px
+
+.morelia-icon
+	background-position -110px -409px
+	
+.queretaro-icon
+	background-position -210px -11px
+	
+.puebla-icon
+	background-position -212px -110px
+
+.nav-icon
+	background url(../img/cmn-ui-grid_01.png) no-repeat
+	display inline-block
+	height 27px
+	margin-right 10px
+	overflow hidden
+	text-transform none
+	vertical-align middle
+	width 27px
+
+.inicio-icon
+	background-position -312px -313px
+
+.ideario-icon
+	background-position -362px -314px
+
+.history-icon
+	background-position -312px -364px
+
+.models-icon
+	background-position -362px -362px
+
+.levels-icon
+	background-position -311px -414px
+
+.campus-icon
+	background-position -361px -413px
+
+.news-blog-icon
+	background-position -263px -363px
+
+.contact-icon
+	background-position -263px -413px
+
+
+// Layout Styles
+#header
+	float Layout
+	position relative
+	z-index 1000
+	width 100%
+
+	.nav-button
+		background funnyBlue
+		border-radius 3px
+		box-shadow 2px 2px 0px rgba(0,0,0,0.3)
+		display block
+		color white
+		font-size 2.2em
+		height 40px
+		margin 0.65em 0
+		padding 5px 0
+		text-align center
+		width 38px
+
+		&:hover
+			background orangeBtn
+			color white
+			text-decoration none
+
+	.login
+		background url(../img/login-bg.png) center center no-repeat
+		box-sizing border-box
+		float left
+		font-size 1.6em
+		position relative
+
+		.login-wrapper
+			float left
+			cursor pointer
+			padding 10px 0
+			margin 0 20px
+			position relative
+			width 128px
+			z-index 1010
+
+			a
+				color white
+
+				.glyphicon-chevron-up
+					background orange
+					border-radius 50%
+					box-shadow 1px 2px 0 orangeBtnBorder
+					display inline
+					color white
+					font-size 0.6em
+					margin-right 1em
+					padding 5px 6px
+					vertical-align middle
+
+				.glyphicon-chevron-down
+					background orange
+					border-radius 50%
+					box-shadow 1px 2px 0 orangeBtnBorder
+					display inline
+					color white
+					font-size 0.6em
+					margin-right 1em
+					padding 5px 6px
+					vertical-align middle
+
+				.login-text
+					display inline-block
+					font-size 0.8em
+					vertical-align center
+					margin 1em 0 1em 0
+					padding-top 5px
+
+				&:hover 
+					text-decoration none
+
+			&:hover
+				background lightGreen
+
+		.login-wrapper.login-active
+			background lightGreen
+
+	.login-form-container
+		display none
+		float left
+		padding-top 68px
+		position absolute
+		right 20px
+		transition all 0.5s ease-in-out
+		top -999px 
+		width 318px
+		z-index 1005
+
+		form
+			background lightGreen
+			box-sizing border-box
+			color white
+			float left
+			padding 1.5em
+			width 100%
+
+			input[type="text"],
+			input[type="password"]
+				background white
+				border none
+				border-bottom 1px solid #afb0b4
+				border-radius 3px
+				margin-bottom 10px
+				width 265px
+			
+			input.submit
+				background #f39d39
+				border none
+				border-bottom 5px solid #ee8b39
+				border-radius 3px
+				color #fff
+				display block
+				margin 0 auto 1em auto
+				padding .6em 1.5em
+				text-align center
+				text-transform uppercase
+				transition all 0.5s ease-in-out
+
+				&:hover
+					background blue
+					border-bottom 5px solid darkerBlue
+
+
+			a 
+				color darkerBlue
+				text-decoration underline
+
+				&:hover 
+					color white
+
+	.login-form-container.show-login
+		display block
+		top 0
+
+
+#main-nav
+	display block
+	color white
+	left -250px
+	height 100%
+	opacity 0
+	position fixed
+	transition all 0.5s ease-in-out
+	top 0
+	width 250px
+	z-index 1100
+
+	.social-icons
+		background darkerBlue
+		display inline-block
+		padding 1em 0
+		text-align center
+		width 100%
+
+		.social-icon
+			background rgba(0,0,0,0.5)
+			border-radius 50%
+			box-shadow 2px 2px 0px rgba(0,0,0,0.3)
+			color white
+			display inline-block
+			font-size 2em
+			margin 0 0.4em
+			padding 10px
+
+			&:hover
+				background white
+				color darkerBlue
+				text-decoration none
+
+	ul
+		background darkerBlue
+		display inline-block
+		margin 0
+		height 100%
+		padding 0
+		width 100%
+
+		li > a
+			display inline-block
+			padding 10px 0 10px 1em
+			width 100%
+
+			&:hover
+				background rgba(0,0,0,0.5)
+
+			span.nav-text
+				color white
+				display inline-block
+				font-family 'Trebuchet MS', arial, Helvetica, sans-serif
+				font-size 1.7em
+				text-transform uppercase
+				transition all 10s linear
+				vertical-align middle
+
+#main-nav.show-nav
+	left 0
+	opacity 1
+
+#main-nav.show-complete
+	width 250px
+
+.logo 
+	left 44.5%
+	position absolute
+	top 0
+	width 198px
+	z-index 1200
+
+#video-banner
+	background black
+	border-bottom 7px solid lightBlue
+	box-shadow 0 0.5em 2em rgba(0,0,0,0.2)
+	float left
+	height 435px
+	overflow hidden
+	position relative
+	text-align center
+	width 100%
+
+	video
+		left 0
+		opacity 0.3
+		position absolute
+		top 0
+		width 100%
+	
+	.banner-text
+		color white
+		display inline-block
+		font-size 1.6em
+		margin-top 150px
+		text-align left
+
+		.title
+			font-size 3.3em
+			font-weight bold
+
+		article
+			padding-right 4em
+			text-align justify
+
+	.inner-banner-text
+		color white
+		display inline-block
+		font-size 1.6em
+		margin-top 150px
+		text-align left
+
+		.title
+			font-size 3.3em
+			font-weight bold
+			margin-top 0
+
+		article
+			background rgba(0,0,0,0.5)
+			float right
+			padding 2em
+			text-align justify
+
+	.video-button
+		background white
+		border 1px solid black
+		border-radius 50%
+		display none
+		color black
+		height 80px
+		left 47.5%
+		opacity 0.5
+		overflow hidden
+		position absolute
+		top 50%
+		z-index 100
+		width 80px
+
+		.glyphicon-play
+			display block
+			color black
+			font-size 3em
+			padding 0.8em 0.9em
+			position relative
+			vertical-align middle
+
+		&:hover
+			text-decoration none
+
+#inner-banner
+	border-bottom 7px solid lightBlue
+	float left
+	height 190px
+	overflow hidden
+	width 100%
+
+	img
+		width 100%
+
+#rotating-quotes
+	background url(../img/wave-bg.png) left bottom repeat-x
+	float left
+	padding 4em 0
+	position relative
+	width 100%
+	z-index 0
+
+	.container
+		.row
+			.col-xs-12 > h3
+				color textGray2
+				font-family copyFont
+				font-size 3.2em
+				text-align center
+
+				strong
+					font-family AllerRegular
+
+	.icon-divider
+		bottom -40px
+		display block
+		position absolute
+		width 100%
+
+	.divider-top
+		top 0
+		display block
+		position absolute
+		width 100%
+
+#ideario
+	background darkerBlue url(../img/ideario-bg.jpg) center center repeat
+	color white
+	font-size 1.6em
+	float left
+	margin-top -5px
+	padding 4em 0
+	text-align justify
+	width 100%
+
+	.subtitle
+		color funnyBlue
+		font-size 1.8em
+
+	.container
+		.row
+			.col-sm-3
+				position relative
+
+				.icon-heart
+					color red
+					font-size 100px
+					height 120px
+					left 118px
+					overflow hidden
+					position absolute
+					top 55px
+					width 120px
+
+					.glyphicon-heart
+						animation pound 0.6s infinite
+						display inline-block
+						transform-origin center
+
+.bg-shadow
+	background url(../img/section-shadow.png) center 3px no-repeat
+
+#history
+	float left
+	font-size 1.6em 
+	padding 1em 0 3em 0
+	position relative
+	width 100%
+
+	.title
+		color darkerBlue
+		margin-top 0
+
+	.container
+		background url(../img/history-timeline.png) 60px 80px no-repeat
+
+		.relevant-day > .col-sm-1
+			border-right 1px solid lightBlue
+			
+			.history-date
+				color lightBlue
+				font-family title
+				font-size 2em
+				line-height 100%
+		
+		.relevant-day
+			article
+				color gray
+				font-size 1.4em
+
+			.data-info
+				border-left 1px solid lightBlue
+
+				.bigger-data-info
+					color gray
+					display inline-block
+					font-family AllerBold
+					font-size 2.5em
+					line-height 100%
+					width 100%
+
+	.icon-divider
+		bottom -40px
+		display block
+		position absolute
+		width 100%
+
+	.bg-shadow
+		background-position center top
+
+#guidance
+	background lightBlue url(../img/guidance-bg.png) center top no-repeat
+	color white
+	float left
+	font-size 2.7em
+	line-height 120%
+	padding 3.02em 0 1.4em 0
+	width 100%
+
+	article
+		text-align justify
+
+#models
+	background url(../img/modelos-bg.jpg) 0 0 repeat
+	background-size 100%
+	float left
+	position relative
+	width 100%
+
+	.container
+		.row
+			.models-slider
+				overflow hidden
+				position relative
+
+				.slider-control
+					left 0
+					position absolute
+					top 75px
+					z-index 100
+
+					a 
+						background white
+						border 4px solid lightBlue
+						border-radius 50%
+						box-shadow 1px 1px 2px rgba(0,0,0,0.2)
+						display inline-block
+						font-size 1.6em
+						height 28px
+						margin 0 0.6em 0 0
+						overflow hidden
+						text-indent -99999px
+						width 28px
+
+						&:hover
+							background orange
+
+					a.activeSlide
+						background orange
+						border 4px solid #e4e4e4
+
+				ul 
+					overflow visible !important
+
+					li.container-2
+						max-width 1072px !important
+						width 1072px !important
+
+						section
+							color textGray1
+							font-size 1.6em
+							padding 4em 0 3em 0
+
+							.title
+								color darkerBlue
+
+							article
+								background url(../img/checkmark.png) 60px 117px no-repeat
+								text-align justify
+
+								.subtitle
+									color lightBlue
+									font-size 1.8em
+									text-align center
+
+							.valores 
+								background none
+
+								.quote-valores
+									color textGray1
+									font-family AllerLightRegular
+									font-size 2em
+									margin 0
+									padding 0
+									border none
+
+							.competencias
+								background-position 60px 5px
+
+								cite
+									background url(../img/block-quote.png) 0 0 no-repeat
+									border none
+									display inline-block
+									font-size 1.1em
+									margin-start 0
+									overflow hidden
+									padding 1em 0 0 0
+
+									span
+										font-size 0.8em
+
+						.acude-section
+							.subtitle
+								color lightBlue
+								font-size 1.4em
+
+	.icon-divider
+		background-position center top
+		bottom -40px
+		display block
+		position absolute
+		width 100%
+
+#levels
+	background url(../img/niveles-bg.jpg) repeat
+	border-bottom 80px solid #fde53a
+	float left
+	font-size 1.6em
+	padding 3em 0 0 0
+	width 100%
+
+	.container 
+		.row
+			.levels-content
+				article
+					
+					.title
+						color darkerBlue
+						margin-bottom 0.6em
+
+					.subtitle
+						color lightBlue
+						font-size 1.8em
+						line-height 120%
+						margin-bottom 1em
+
+			.levels-slider
+				background url(../img/level-paper-bg.png) 0 0 no-repeat
+				margin 0
+				width 1200px
+				overflow visible
+				padding 105px 0 50px 95px
+				position relative
+				
+				.slider-control-2
+					left 105px
+					position absolute
+					top 50px
+					z-index 100
+
+					a 
+						background white
+						border 4px solid lightBlue
+						border-radius 50%
+						box-shadow 1px 1px 2px rgba(0,0,0,0.2)
+						display inline-block
+						font-size 1.6em
+						height 28px
+						margin 0 0.6em 0 0
+						overflow hidden
+						text-indent -99999px
+						width 28px
+
+						&:hover
+							background orange
+
+					a.activeSlide
+						background orange
+						border 4px solid #e4e4e4
+				
+				ul
+					overflow visible !important
+
+					li.container-2
+						max-width 1065px !important
+						width 1065px !important
+
+						.slide
+							.levels-slider-content 
+								.title
+									color orange
+									font-family AllerBold
+									margin 0
+
+								.subtitle
+									color textGray2
+									margin 0.3em 0 1.8em 0
+
+								p 
+									color textGray1
+									font-size 1.02em
+									text-align justify
+
+							figure
+								img
+									position absolute
+
+							.maternal
+								img
+									top -125px
+									left -180px
+							
+							.kinder
+								img
+									top -145px
+									left -180px
+							
+							.primaria
+								img
+									top -100px
+									left -100px
+
+							.secundaria
+								img
+									top -137px
+									left -100px
+
+							.bachillerato
+								img
+									top -115px
+									left -120px
+
+#levels-campus
+	background url(../img/niveles-bg.jpg) repeat
+	float left
+	font-size 1.6em
+	padding 5em 0 7.7em 0 
+	position relative
+	width 100%
+
+	.container
+		.row
+			.col-sm-12
+				
+				.title
+					color darkerBlue
+					margin 0 0 0.6em 0
+
+				ul
+					margin 0
+					padding 0
+
+					li 
+						float left
+						text-align center
+						width 20%
+
+						.title 
+							color orange
+							font-family AllerBold
+							margin-bottom 0
+
+						img
+							margin-bottom 1em
+
+						span
+							color textGray1
+							font-size 1em
+
+	.icon-divider
+		background-position center top
+		top 0
+		display block
+		position absolute
+		width 100%
+
+#campus
+	background url(../img/niveles-bg.jpg) repeat
+	float left
+	margin-top -3.5em
+	width 100%
+
+	.container
+		.row.map-bg
+			background url(../img/map-bg.png) right top no-repeat
+			padding 10em 0 9em 0
+
+			.map-marker-icon
+				background url(../img/cmn-ui-grid_01.png) no-repeat
+				display block
+				height 40px
+				position absolute
+				text-decoration none
+				width 30px
+			
+			.campus-la-calma,
+			.campus-sta-anita
+				background-position -210px -455px
+				color orangeBtnBorder
+				
+			.campus-la-calma
+				right 509px
+				top 190px
+
+			.campus-sta-anita
+				right 503px
+				top 137px
+
+			.campus-queretaro
+				background-position -311px -455px
+				right 303px
+				top 135px
+
+			.campus-puebla
+				background-position -360px -455px
+				right 201px
+				top 250px
+
+			.campus-morelia
+				background-position -262px -455px
+				right 396px
+				top 234px
+				
+
+			.la-calma-tooltip,
+			.sta-anita-tooltip,
+			.queretaro-tooltip,
+			.puebla-tooltip,
+			.morelia-tooltip
+				.tooltip-inner
+					box-shadow 3px 3px 3px rgba(0,0,0,0.5)
+					font-family AllerBold
+					font-size 1em
+					text-transform uppercase
+
+			.la-calma-tooltip,
+			.sta-anita-tooltip
+				.tooltip-arrow
+					border-right-color orangeBtnBorder
+
+				.tooltip-inner
+					background orangeBtnBorder
+
+			.queretaro-tooltip
+				.tooltip-arrow
+					border-right-color lightBlue
+
+				.tooltip-inner
+					background lightBlue
+
+			.puebla-tooltip
+				.tooltip-arrow
+					border-right-color green
+
+				.tooltip-inner
+					background green
+
+			.morelia-tooltip
+				.tooltip-arrow
+					border-right-color purple
+
+				.tooltip-inner
+					background purple
+				
+
+		.row
+			.nuestro-campus
+				font-size 1.6em
+				padding-right 3.1em
+
+				.title
+					color darkerBlue
+				.subtitle
+					color lightBlue
+					font-size 1.7em
+					line-height 120%
+					text-align justify
+
+#campus-locations
+	background url(../img/section-shadow-2.png) center 0 no-repeat
+	float left
+	padding 5em 0 8em 0
+	width 100%
+
+	.container 
+		.row
+			.campus-list
+				ul 
+					display block
+					margin 0
+					padding 0
+					width 100%
+
+					li 
+						display inline-block
+						margin 0 3.6em
+
+						a
+
+							&:hover
+								text-decoration none
+
+								.ui-icon
+									opacity 1
+									top -5px
+
+								.la-calma-icon + .colegio, .sta-anita-icon + .colegio
+									color orange
+
+								.morelia-icon + .colegio
+									color purple
+									
+								.queretaro-icon + .colegio
+									color funnyBlue
+								
+								.puebla-icon + .colegio
+									color green
+
+							.ui-icon 
+								display block
+								margin 0 auto
+								opacity 0.7
+								position relative
+								top 0
+								transition all 0.2s ease-in-out 
+
+							.colegio
+								color textGray2
+								display block
+								font-family AllerBold
+								font-size 1.7em
+								text-transform uppercase
+								width 100%
+
+#instalaciones
+	background url(../img/instalaciones-bg.jpg) center top
+	background-size 100%
+	float left
+	font-size 1.6em
+	padding 3em 0 3.8em 0
+	width 100%
+
+	.container 
+		.row
+			.subtitle
+				color lightBlue
+				font-size 2em
+				margin-top 0
+				text-align center
+
+			p 
+				color textGray2
+				font-size 1.1em
+				text-align center
+
+			a.instalaciones-btn
+				background lightBlueBtn
+				border-bottom 5px solid lightBlueBtnBorder
+				border-radius 3px
+				box-sizing border-box
+				color white
+				float left
+				font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+				font-size 14px
+				line-height 130%
+				margin-top 1.5em
+				padding 0.8em 0
+				text-align center
+				text-transform uppercase
+				width 200px
+
+				&:hover
+					background orangeBtn
+					border-bottom 5px solid orangeBtnBorder
+					text-decoration none
+
+				span
+					font-size 19px
+			
+
+#news-blog
+	background url(../img/blog-bg.jpg) 0 0 repeat
+	color white
+	float left
+	font-size 1.6em
+	padding 4em 0 2em 0
+	position relative
+	width 100%
+
+	.container
+		background url(../img/blog-bg-2.png) center center no-repeat
+
+		.row
+			.news-blog
+				.title
+					text-align center
+
+				.blog-grid
+					box-shadow 1px 1px 19px rgba(0,0,0,0.5)
+					display block
+					margin 0 auto 40px auto
+					overflow hidden
+					width 960px
+
+					.post 
+						float left 
+						height 237px
+						overflow hidden
+						position relative
+
+						article
+							background lightGray
+							border-top 5px solid red
+							bottom 0
+							box-sizing border-box
+							color textGray1
+							display none
+							left 0
+							padding 20px 90px 20px 20px
+							position absolute
+							width 100%
+							z-index 100
+
+							.title
+								color darkerBlue
+								font-size 1em
+								margin 0
+								text-align left
+
+							p 
+								font-size 0.8em
+								margin-bottom 0
+
+							.date 
+								background url(../img/cmn-ui-grid_01.png) -206px -375px no-repeat
+								box-sizing border-box
+								color white
+								height 55px
+								font-size 0.9em
+								line-height 120%
+								overflow hidden
+								padding 6px 10px 15px 10px
+								position absolute
+								right 30px
+								text-align center
+								top 0
+								width 40px
+
+					.post-1,
+					.post-3,
+					.post-4,
+					.post-5
+						width 278px
+
+					.post-2,
+					.post-6
+						width 404px
+
+				.blue-btn
+					background lightBlueBtn
+					border-bottom 5px solid lightBlueBtnBorder
+					border-radius 3px
+					display block
+					color white
+					font-family AllerRegular
+					font-size 0.9em
+					height 40px
+					margin 0 auto 40px auto
+					padding 10px 12px
+					position relative
+					text-align center
+					text-transform uppercase 
+					transition all .2s ease-in-out
+					width 105px
+
+					&:hover
+						background orangeBtn
+						border-bottom 5px solid orangeBtnBorder
+						text-decoration none
+
+					&:active
+						border-bottom 0 solid orangeBtnBorder
+						top 5px
+
+				.pagination-container
+					.pagination 
+						li 
+							a 
+								background-color lightBlueBtn
+								border none
+								border-bottom 5px solid lightBlueBtnBorder
+								border-radius 3px
+								color white
+								margin 0 5px
+								padding 12px 20px
+
+								&:hover
+									background orangeBtn
+									border-bottom 5px solid orangeBtnBorder
+
+						li.active
+							span 
+								background-color orange
+								border none
+								border-bottom 5px solid lightOrangeBtnBorder
+								border-radius 3px
+								color white
+								margin 0 5px
+								padding 12px 20px
+
+						li.disabled
+							span
+								background-color lightBlueBtn
+								border none
+								border-bottom 5px solid lightBlueBtnBorder
+								border-radius 3px
+								color rgba( 255,255,255, 0.4)
+								margin 0 5px
+								padding 12px 20px
+			.news-blog-post
+				.title
+					font-size 2.5em
+					padding-left 135px
+
+				span.campus-blog
+					display inline-block
+					font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+					margin-left 135px
+
+					strong
+						font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+
+				.post-wrapper
+					background #f0f0f0
+					box-sizing border-box
+					clear both
+					display block
+					height 504px
+					overflow hidden
+					margin 40px auto
+					width 930px
+
+					.post-content
+						border-top 5px solid red
+						box-sizing border-box
+						color #8b8b8c
+						float left
+						margin-bottom 40px
+						max-height 435px
+						overflow-y scroll
+						padding 88px 25px 0 25px
+						position relative
+						width 412px
+
+						.date
+							background url(../img/cmn-ui-grid_01.png) -206px -375px no-repeat
+							box-sizing border-box
+							color white
+							height 55px
+							font-size 0.9em
+							line-height 120%
+							overflow hidden
+							padding 6px 10px 15px 10px
+							position absolute
+							left 25px
+							text-align center
+							top 0
+							width 40px
+
+					.post-slider
+						float left
+						height 504px
+						overflow hidden
+						position relative
+						width 518px
+
+						ul
+							float left
+							height 504px
+							margin 0
+							padding 0
+							width 518px
+
+							li 
+								float left
+								height 504px
+								width 518px
+
+								a 
+									background-position center center !important
+									background-repeat no-repeat
+									border none
+									float left
+									height 504px
+									overflow hidden
+									width 518px
+
+									&:hover
+										text-decoration none
+
+						#next,
+						#prev,
+						#close-js 
+							background #4d4d4d
+							border-radius 3px 0 0 3px
+							display block
+							color white
+							font-size 1.4em
+							opacity 0.95
+							padding 8px 15px 5px 15px
+							position absolute
+							right 0
+							text-align center
+							transition all 0.5 ease-in-out
+							z-index 10
+
+							&:hover
+								background lightBlue
+								opacity 1
+
+						#close-js
+							top 0
+
+						#next 
+							top 60px
+
+						#prev
+							top 120px
+
+				.post-navigation
+					float left
+					margin 0 0 40px 0
+					padding 0
+					text-align center
+					width 100%
+
+					li 
+						display inline-block
+						margin 0 3px
+
+						.blue-btn
+							background lightBlueBtn
+							border-bottom 5px solid lightBlueBtnBorder
+							border-radius 3px
+							display inline-block
+							color white
+							font-family AllerRegular
+							font-size 0.9em
+							height 40px
+							margin 0 auto 40px auto
+							padding 10px 12px
+							text-align center
+							text-transform uppercase 
+							transition all .2s ease-in-out
+							width 105px
+
+							&:hover
+								background orangeBtn
+								border-bottom 5px solid orangeBtnBorder
+								text-decoration none
+
+							&:active
+								border-bottom 0 solid orangeBtnBorder
+								top 5px
+
+	.icon-divider
+		background url(../img/section-shadow-3.png) center 0 no-repeat
+		top 0
+		display block
+		position absolute
+		width 100%
+
+#contact
+	background lightBlue url(../img/contactanos-bg.jpg) 0 0 repeat
+	color white
+	float left
+	font-size 1.6em
+	padding 4em 0 2em 0
+	position relative
+	width 100%
+
+	.container
+		.row
+			.contact-container
+				.title
+					margin-top 0
+					text-align center
+
+				.button-container
+
+					button.contactanos
+						background lightOrangeBtn
+						border none
+						border-bottom 5px solid lightOrangeBtnBorder 
+						border-radius 3px
+						color white
+						display inline-block
+						padding 1em 3.8em
+						text-align center
+						text-transform uppercase
+						transition all .5s ease-in-out
+	
+						&:hover
+							background lightOrangeBtnBorder
+							border-bottom 5px solid lightOrangeBtn
+	
+					button.cita
+						background orangeBtn
+						border none
+						border-bottom 5px solid orangeBtnBorder 
+						border-radius 3px
+						color white
+						display inline-block
+						padding 1em 3em
+						text-align center
+						text-transform uppercase
+						transition all .5s ease-in-out
+	
+						&:hover
+							background orangeBtnBorder
+							border-bottom 5px solid orangeBtn
+
+				.form-slider
+					display block
+					margin 0 auto
+					width 720px
+
+					ul
+						li 
+							form#formulario-contacto,
+							form#formulario-cita
+								max-width 720px
+								width 720px
+
+								input[type="text"], input[type="email"]
+									border 1px solid #afb0b4
+									border-radius 3px
+									color darkerBlue
+
+								select.campus-select
+									appearance none
+									background white url(../img/select-button.png) right top no-repeat
+									background-clip padding-box 
+									border 1px solid #afb0b4
+									border-radius 3px
+									color #b3b3b3
+									cursor pointer
+									float left
+									margin-right 2%
+									outline 0
+									padding 0 16px
+									width 48%
+
+								select.campus-select-2
+									appearance none
+									background white url(../img/select-button.png) right top no-repeat
+									background-clip padding-box 
+									border 1px solid #afb0b4
+									border-radius 3px
+									color #b3b3b3
+									cursor pointer
+									float left
+									outline 0
+									padding 0 16px
+									width 100%
+
+								input.date-select
+									appearance none
+									background white //url(../img/date-button.png) right top no-repeat
+									background-clip padding-box 
+									border 1px solid #afb0b4
+									border-radius 3px
+									color #b3b3b3
+									cursor pointer
+									float left
+									margin-left 2%
+									outline 0
+									padding 0 16px
+									width 48%
+
+								select.asunto-select
+									appearance none
+									background white url(../img/select-button.png) right top no-repeat
+									background-clip padding-box 
+									border 1px solid #afb0b4
+									border-radius 3px
+									color #b3b3b3
+									cursor pointer
+									float left
+									outline 0
+									padding 0 16px
+									width 100%
+
+								textarea.mensaje-contacto
+									border 1px solid #afb0b4
+									border-radius 3px
+									box-sizing border-box
+									padding 10px 16px
+
+								input.submit
+									background lightOrangeBtn
+									border none
+									border-bottom 5px solid lightOrangeBtnBorder 
+									border-radius 3px
+									color white
+									display block
+									margin 0 auto
+									padding 0.6em 2.5em
+									text-align center
+									text-transform uppercase
+									transition all .5s ease-in-out
+				
+									&:hover
+										background lightOrangeBtnBorder
+										border-bottom 5px solid lightOrangeBtn
+
+	.icon-divider
+		background url(../img/section-shadow-3.png) center 0 no-repeat
+		top 0
+		display block
+		position absolute
+		width 100%
+			
+#social 
+	background url(../img/social-bg.jpg) repeat
+	border-top 10px solid white
+	float left
+	padding 3em 0 3em 0
+	width 100%
+
+	.container
+		.row
+			.col-sm-4
+				color #becbd1
+				font-size 1.7em	
+				padding-left 50px
+
+				.FZ26
+					font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+					font-weight bold 
+					line-height 120%
+
+				a 
+					color #becbd1
+					text-decoration none
+
+#boletin
+	background darkerBlue
+	color white
+	float left
+	padding 3em 0
+	width 100%
+
+	.container
+		.row
+			.col-sm-5
+				font-size 2.2em
+				text-align right
+				text-transform uppercase
+
+				strong
+					font-family AllerBold
+					font-weight bold
+
+			.col-sm-7
+				form#boletin-noticias
+					input.email-subscription
+						border none
+						border-radius 2px
+						float left
+						width 375px
+
+					input.submit-subscription
+						background #28abe2
+						border none
+						border-bottom 5px solid #2a9ed8
+						border-radius 2px
+						display block
+						color #fff
+						font-family 'AllerRegular',Trebuchet MS,sans-serif
+						font-size 1.4em
+						padding 10px 30px
+						position relative
+						text-align center
+						text-transform uppercase
+						transition all 0.2s ease-in-out
+
+						&:hover
+							background orangeBtn
+							border-bottom 5px solid orangeBtnBorder
+
+#footer
+	background kingBlue
+	color white
+	float left
+	font-size 1.6em
+	padding 2em 0 0 0
+	width 100%
+
+	.container
+		.row
+			.all-campus-info
+				.campus-info 
+					float left
+					margin-right 50px
+
+					h5
+						font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+						font-size 1.1em
+						font-weight bold
+						text-transform uppercase
+
+					.tel 
+						color lightBlue
+						float left
+						font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+						font-weight bold
+						font-size 0.9em
+						margin-bottom 0.7em
+						width 100%
+
+					.address
+						float left
+						font-size 0.8em
+						width 100%
+
+					.email-info
+						color white
+						float left
+						font-size 0.8em
+						width 100%
+
+				.la-calma
+					width 163px
+
+				.sta-anita
+					width 192px
+
+				.queretaro 
+					width 182px
+
+				.puebla 
+					width 216px
+
+				.morelia 
+					width 184px
+					margin 0
+
+			.one-campus-info
+				.title
+						margin-bottom 0.5em
+
+				.campus-info
+
+					.tel
+						color lightBlue
+						float left
+						font-family 'Trebuchet MS', Arial, Helvetica, sans-serif
+						font-weight bold
+						font-size 1em
+						margin 1em 10px 0 120px
+						width 200px
+
+						.phone-icon
+							margin-top 13px
+
+						.phone-numbers
+							margin-top 4px
+
+					.address
+						float left
+						width 315px
+
+					a
+						color white
+
+						&:hover
+							text-decoration underline
+
+			.queretaro-map
+				background url(../img/queretaro-map.png) 50px 20px no-repeat
+
+		.copyright
+			background url(../img/copyright-shadow.png) center top no-repeat
+			color #becbd1
+			font-size 0.9em
+			padding 1.5em 0 1em 0
+			text-align center
+			text-transform uppercase
+									
+				
+@keyframes pound
+	from, to
+		transform none
+	50%
+		transform scale(1.1)
+
+@media screen and (max-width:422px)
+	.gn-menu-wrapper.gn-open-all
+		transform translateX(0px)
+		width 100%
+
+	.gn-menu-wrapper.gn-open-all .gn-scroller
+		width 130%
+
+@media all and (max-width:1200px)
+	.logo
+		left 502px
+
+	#models
+		background-size 100% 100%
+					
