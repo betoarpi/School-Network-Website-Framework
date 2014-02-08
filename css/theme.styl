@@ -82,8 +82,26 @@ h2.title
 	font-weight bold
 
 .alert-error
+	background white
+	box-sizing border-box
+	display block
+	font-size 1.6em
+	height 100%
+	min-height 768px
+	padding-top 300px
 	position relative
-	z-index 2500
+	width 100%
+	z-index 1500
+
+	.title
+		color darkerBlue
+		font-size 2em
+
+	.subtitle
+		color lightBlue
+		font-size 1.2em
+
+
 
 #header,
 #video-banner,
@@ -208,6 +226,52 @@ h2.title
 
 .contact-icon
 	background-position -263px -413px
+
+.social-share
+	bottom 85px
+	left 140px
+	position absolute
+
+	.st_twitter_large
+		.stButton
+				background url(../img/twitter-icon-small.png) 0 0 no-repeat
+				display inline-block !important
+				height 34px
+				margin 0 2px
+				overflow hidden
+				padding 0
+				vertical-align middle
+				width 32px
+				
+				&:hover
+					background url(../img/twitter-icon-small.png) 0 -34px no-repeat
+
+			.stLarge
+				display none !important
+			img
+				display none !important
+
+	.st_facebook_large
+		.stButton
+				background url(../img/facebook-icon-small.png) 0 0 no-repeat
+				display inline-block !important
+				height 34px
+				margin 0 2px
+				overflow hidden
+				padding 0
+				vertical-align middle
+				width 32px
+				
+				&:hover
+					background url(../img/facebook-icon-small.png) 0 -34px no-repeat
+
+			.stLarge
+				display none !important
+			img
+				display none !important
+
+				
+				
 
 
 // Layout Styles

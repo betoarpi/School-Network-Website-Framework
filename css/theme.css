@@ -591,7 +591,9 @@ strong{color:#28abe2;font-weight:bold}
 .miniTitle{font-family:'AllerBold',Trebuchet MS,sans-serif}
 .subtitle{font-family:'AllerLightRegular',Trebuchet MS,sans-serif}
 h2.title{font-size:3.5em;font-weight:bold}
-.alert-error{position:relative;z-index:2500}
+.alert-error{background:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;font-size:1.6em;height:100%;min-height:768px;padding-top:300px;position:relative;width:100%;z-index:1500;}
+.alert-error .title{color:#053b73;font-size:2em}
+.alert-error .subtitle{color:#28abe2;font-size:1.2em}
 #header,#video-banner,#inner-banner,.container,#ideario,#guidance,#models,#levels,#campus,#campus-locations,#instalaciones,#news-blog,#contact,#social,#boletin,#footer{min-width:1200px}
 .ui-icon{background:url("../img/cmn-ui-grid_01.png") no-repeat;display:block;height:85px;margin:-45px auto 0 auto;overflow:hidden;width:85px}
 .arrow-down-icon{background-position:-10px -8px}
@@ -619,6 +621,15 @@ h2.title{font-size:3.5em;font-weight:bold}
 .campus-icon{background-position:-361px -413px}
 .news-blog-icon{background-position:-263px -363px}
 .contact-icon{background-position:-263px -413px}
+.social-share{bottom:85px;left:140px;position:absolute;}
+.social-share .st_twitter_large .stButton{background:url("../img/twitter-icon-small.png") 0 0 no-repeat;display:inline-block !important;height:34px;margin:0 2px;overflow:hidden;padding:0;vertical-align:middle;width:32px;}
+.social-share .st_twitter_large .stButton:hover{background:url("../img/twitter-icon-small.png") 0 -34px no-repeat}
+.social-share .st_twitter_large .stLarge{display:none !important}
+.social-share .st_twitter_large img{display:none !important}
+.social-share .st_facebook_large .stButton{background:url("../img/facebook-icon-small.png") 0 0 no-repeat;display:inline-block !important;height:34px;margin:0 2px;overflow:hidden;padding:0;vertical-align:middle;width:32px;}
+.social-share .st_facebook_large .stButton:hover{background:url("../img/facebook-icon-small.png") 0 -34px no-repeat}
+.social-share .st_facebook_large .stLarge{display:none !important}
+.social-share .st_facebook_large img{display:none !important}
 #header{float:Layout;position:relative;z-index:1000;width:100%;}
 #header .nav-button{background:#29c6ef;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.3);box-shadow:2px 2px 0 rgba(0,0,0,0.3);display:block;color:#fff;font-size:2.2em;height:40px;margin:.65em 0;padding:5px 0;text-align:center;width:38px;}
 #header .nav-button:hover{background:#ea7706;color:#fff;text-decoration:none}
