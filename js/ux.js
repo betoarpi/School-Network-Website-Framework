@@ -18,6 +18,14 @@ $(function() {
     pause: true
   });
 
+  $('.quotes-container').cycle({
+    fx:'fade',
+    speed:  '1500',
+    timeout: 8500,
+    cleartypeNoBg: true,
+    pause: false
+  });
+
 // Blog Post hide and show functionality
   function showPost(){
     $(this).children('article').slideToggle();
